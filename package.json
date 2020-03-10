@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf ./dist && webpack --mode production --config webpack.config.js",
     "start": "webpack-dev-server --mode development",
-    "lint": "eslint src/**/*.tsx"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/MinwookJo/MJ-React-Plate/issues"
   },
-  "homepage": "https://github.com/MinwookJo/MJ-React-Plate#readme",
+  "homepage": "https://MinwookJo/github.io/MJ-React-Plate",
   "dependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
@@ -39,6 +39,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
