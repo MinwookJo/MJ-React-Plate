@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
@@ -39,8 +40,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'src/app-shell.html',
-            filename: 'app-shell.html'
+            template: 'src/index.html',
+            filename: 'index.html'
         })
     ]
 };
